@@ -1,0 +1,33 @@
+{
+    "name": "degen-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot for crypto/trading features",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/main.js",
+        "dev": "ts-node main.ts",
+        "watch": "ts-node --watch main.ts"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "crypto",
+        "trading"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@solana/spl-token": "^0.3.8",
+        "@solana/web3.js": "^1.98.4",
+        "axios": "^1.6.2",
+        "bs58": "^5.0.0",
+        "dotenv": "^16.3.1",
+        "grammy": "^1.38.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
